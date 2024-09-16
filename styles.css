@@ -1,0 +1,124 @@
+body{
+    background-color: #f2f2f2;
+    background-image: url(game.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.login-box{
+    width: 320px;
+    height: 420px;
+    background: white;
+    color: black;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    background-color: rgba(223, 143, 143, 0.01);
+    border-radius: 5%;
+    box-shadow: 10px 10px 20px rgba(0,1,10,10);
+}
+
+.login-box h1{
+    margin: 0;
+    padding: 0 0 20px;
+    color: black;
+    text-align: center;
+    font-weight: bolder;
+    font-family: arial,sans-serif;
+}
+
+.textbox{
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 1px solid white;
+    text-align: center;
+}
+
+.textbox:hover{
+    border-bottom: 1px dotted white;
+}
+
+.password{
+    margin-top: 20px;
+}
+
+.textbox input{
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    font-size: 18px;
+    width: 100%;
+}
+
+.textbox input::placeholder{
+    padding: 8px 0;
+    color: whitesmoke;
+    font-size: 18px;
+}
+
+
+.login-box a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #333;
+    margin: 15px 0;
+    text-align: center;
+    display: block;
+}
+
+.login-box a:hover{
+    color: #666;
+}
+
+.submit #submit{
+    margin-top: 70px;
+    margin-left: 80px;
+    text-align: center;
+}
+
+#submit{
+    background-color: aqua;
+    height: 25px;
+    width: 80px;
+    border-radius: 5%;
+    text-align: center;
+    font-family: "poppins";
+    color: white;
+}
+
+#submit:hover{
+    background-color: rgba(100, 100, 100,0.1);
+}
+
+.login-box .forget{
+    margin-top: -70px;
+    margin-left: -40px;
+    color: white;
+} 
+
+.forget{
+    width: 150px;
+    height: 20px;
+}
+
+.forget:hover{
+    color: black;
+}
+
+
+
+.forgot{
+    margin-top: -71px;
+    margin-left: 200px;
+
+}
+
